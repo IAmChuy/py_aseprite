@@ -40,9 +40,9 @@ sureeverything is and will stay in place.
 The minimal way to load a file looks like this
 
 ```python
-from aseprite import AsepriteFile
+from py_aseprite import AsepriteFile
 
-with open('my_file.aseprite', 'rb') as f:
+with open('my_file.py_aseprite', 'rb') as f:
     parsed_file = AsepriteFile(f.read())
 ```
 
